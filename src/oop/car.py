@@ -1,6 +1,4 @@
 # https://certifysphere.com/docs/tutorials/learn-python/object-oriented-programming
-
-
 #https://certifysphere.com/docs/tutorials/learn-python/object-oriented-programming#classes-and-objects
 # Class definition
 class Car:
@@ -45,8 +43,12 @@ class ElectricCar(Car):
     def charge(self):
         print("The electric car is charging.")
 
+    def display_info(self):
+        print(f"Car: {self.make} {self.model}, Year: {self.year}, BatteryCapacity: {self.battery_capacity}")
+
 # Creating objects of ElectricCar
 my_car = ElectricCar("Tesla", "Model S", 2023, "100kWh")
+my_car.display_info()
 my_car.charge() # Output The electric car is charging.
 # Run this program in terminal or command : 
 # python3 car.py or python car.py

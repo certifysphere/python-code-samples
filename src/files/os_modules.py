@@ -16,3 +16,9 @@ print(file_exists)
 
 #OUTPUT 
 #it should print current directory and 'false' because myfile.txt does not exist. 
+
+#import specific functions or classes from a module using the from keyword
+from math import sqrt
+
+result = sqrt(25)
+print(result) # 5.0

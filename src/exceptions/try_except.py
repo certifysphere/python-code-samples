@@ -1,5 +1,5 @@
 #For Tutorial, refer to this link
-#https://certifysphere.com/docs/tutorials/learn-python/working-with-files-and-input-output
+#https://certifysphere.com/docs/tuts/tutorials/learn-python/error-handling-and-exception-handling
 #Example 1- The try-except Block
 try:
     # Code that may raise an exception
@@ -50,5 +50,5 @@ except ValueError as e:
     print(str(e))
 else:
     print(f"Entered age {age}")
-#To run this program in terminal or command, change directory to /src/files and run the following command
+#To run this program in terminal or command, change directory to /src/exceptions and run the following command
 #python3 try_except.py  OR python try_except.py 
